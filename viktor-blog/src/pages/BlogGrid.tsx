@@ -17,6 +17,7 @@ import { FilterBar } from '../components/FilterBar';
 import { config } from '../config/api.config';
 import { Layers, TrendingUp } from 'lucide-react';
 import { useUrlState } from '../hooks/useUrlState';
+import { BlogPost } from '../types/blog.types';
 
 const BlogGrid: React.FC = () => {
   const dispatch = useAppDispatch();
@@ -208,7 +209,7 @@ const BlogGrid: React.FC = () => {
         ) : posts.length > 0 ? (
           <>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-              {posts.map((post) => (
+              {posts.map((post: BlogPost) => (
                 <BlogCard key={post.id} post={post} />
               ))}
             </div>

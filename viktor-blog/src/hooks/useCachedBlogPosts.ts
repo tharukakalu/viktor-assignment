@@ -7,6 +7,7 @@ import { config } from '../config/api.config';
 /**
  * Custom hook with intelligent caching
  * Prevents duplicate API calls and caches responses
+ * Fixed: Removed 'cache' from dependency array to prevent race conditions
  */
 export const useCachedBlogPosts = (debouncedSearch: string) => {
   const dispatch = useAppDispatch();
@@ -55,7 +56,7 @@ export const useCachedBlogPosts = (debouncedSearch: string) => {
     );
   }, [dispatch, cache]);
 
-  // Load blog posts with caching
+  // Load blog posts with caching - FIXED DEPENDENCY ARRAY
   useEffect(() => {
     // Clear expired cache entries
     dispatch(clearExpiredCache());
@@ -97,7 +98,9 @@ export const useCachedBlogPosts = (debouncedSearch: string) => {
     };
 
     fetchData();
-  }, [dispatch, currentPage, debouncedSearch, categoryId, authorId, sortOrder, cacheKey, cache]);
+    // ✅ FIXED: Removed 'cache' from dependencies to prevent race conditions
+    // Only re-run when actual filters change
+  }, [dispatch, currentPage, debouncedSearch, categoryId, authorId, sortOrder, cacheKey]);
 
   return {
     posts,
