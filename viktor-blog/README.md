@@ -41,6 +41,15 @@ We deliberately cache critical images
 | **Tailwind CSS** | Rapid, utility-first styling |
 | **Lucide React** | Lightweight, tree-shakeable icons |
 
+## 📝 Testing
+
+All tests passing! Run tests with:
+```bash
+npm test
+```
+
+See [TESTING.md](./TESTING.md) for detailed testing documentation.
+
 ## 📸 Screenshots
 
 ### Main Blog Grid

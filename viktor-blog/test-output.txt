@@ -1,0 +1,480 @@
+
+> viktor-blog@0.1.0 test
+> jest --watchAll=false
+
+PASS src/services/__tests__/BlogApiService.test.ts
+PASS src/store/slices/__tests__/blogSlice.test.ts
+PASS src/hooks/__tests__/useDebounce.test.ts
+PASS src/components/__tests__/Pagination.test.tsx
+PASS src/components/__tests__/BlogCard.test.tsx
+  ● Console
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      ✅ Image loaded successfully: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at MockImage.img.onload (src/hooks/useImagePreload.ts:52:15)
+
+    console.log
+      ✅ Image from Redux cache: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:36:15
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+PASS src/App.test.tsx
+  ● Console
+
+    console.log
+      🔄 Fetching fresh data for: posts_1__null_null_DESC
+
+      at src/hooks/useCachedBlogPosts.ts:74:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Fetching fresh data for: posts_1__null_null_DESC
+
+      at src/hooks/useCachedBlogPosts.ts:74:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Fetching fresh data for: posts_1__null_null_DESC
+
+      at src/hooks/useCachedBlogPosts.ts:74:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Fetching fresh data for: posts_1__null_null_DESC
+
+      at src/hooks/useCachedBlogPosts.ts:74:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+    console.log
+      🔄 Loading image: https://cms.viktor.ai/uploads/test-image.jpg
+
+      at src/hooks/useImagePreload.ts:45:13
+
+
+Test Suites: 6 passed, 6 total
+Tests:       43 passed, 43 total
+Snapshots:   0 total
+Time:        3.384 s
+Ran all test suites.
