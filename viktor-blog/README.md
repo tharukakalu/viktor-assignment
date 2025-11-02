@@ -55,4 +55,4 @@ We deliberately cache critical images
 ![Mobile responsive view](./screenshots/mobile-view.png)
 
 ### Tab Responsive View
-![Tab responsive vie](./screenshots/tab-view.png)
+![Tab responsive vie](./screenshots/tab-vew.png)
