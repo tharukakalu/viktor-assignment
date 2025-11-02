@@ -44,13 +44,15 @@ We deliberately cache critical images
 ## 📸 Screenshots
 
 ### Main Blog Grid
-![Main layout of the Viktor.ai blog grid](./screenshots/web-3.png)
+![Main layout of the Viktor.ai blog grid](./screenshots/web-2.png)
 
 ### Filters and Smart Pagination
-![Filters and pagination in action](./screenshots/web-2.png)
+![Filters and pagination in action](./screenshots/web-1.png)
+![Filters and pagination in action](./screenshots/web-4.png)
+![Filters and pagination in action](./screenshots/web-3.png)
 
 ### Mobile Responsive View
 ![Mobile responsive view](./screenshots/mobile-view.png)
 
 ### Tab Responsive View
-![Tab responsive vie](./screenshots/tab-view)
+![Tab responsive vie](./screenshots/tab-view.png)
